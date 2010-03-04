@@ -13,6 +13,7 @@ Source0:    http://www.cpan.org/modules/by-module/Log/%{upstream_name}-%{upstrea
 
 BuildRequires: perl(Carp)
 BuildRequires: perl(ExtUtils::MakeMaker)
+BuildRequires: perl(JSON)
 BuildRequires: perl(Log::Dispatch)
 BuildRequires: perl(Log::Dispatch::Array)
 BuildRequires: perl(Log::Dispatch::File)
