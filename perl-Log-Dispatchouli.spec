@@ -22,7 +22,9 @@ BuildRequires: perl(Params::Util)
 BuildRequires: perl(Scalar::Util)
 BuildRequires: perl(String::Flogger)
 BuildRequires: perl(Sys::Syslog)
+BuildRequires: perl(Test::Deep)
 BuildRequires: perl(Try::Tiny)
+
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 
@@ -34,7 +36,6 @@ no description found
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
-
 %make
 
 %check
@@ -52,5 +53,3 @@ rm -rf %buildroot
 %doc Changes LICENSE META.yml
 %{_mandir}/man3/*
 %perl_vendorlib/*
-
-
