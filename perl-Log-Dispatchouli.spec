@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    A simple wrapper around Log::Dispatch
 License:    GPL+ or Artistic
@@ -13,7 +13,6 @@ Source0:    http://www.cpan.org/modules/by-module/Log/%{upstream_name}-%{upstrea
 
 BuildRequires: perl(Carp)
 BuildRequires: perl(ExtUtils::MakeMaker)
-BuildRequires: perl(JSON)
 BuildRequires: perl(Log::Dispatch)
 BuildRequires: perl(Log::Dispatch::Array)
 BuildRequires: perl(Log::Dispatch::File)
