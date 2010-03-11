@@ -1,5 +1,5 @@
 %define upstream_name    Log-Dispatchouli
-%define upstream_version 1.100681
+%define upstream_version 1.100691
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
