@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Release:    %mkrel 2
 
 Summary:    A simple wrapper around Log::Dispatch
 License:    GPL+ or Artistic
@@ -27,6 +27,8 @@ BuildRequires: perl(Try::Tiny)
 
 BuildArch: noarch
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
+
+Requires: perl(Log::Dispatch::Array)
 
 %description
 no description found
