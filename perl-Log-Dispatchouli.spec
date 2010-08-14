@@ -1,9 +1,9 @@
 %define upstream_name    Log-Dispatchouli
-%define upstream_version 1.100712
+%define upstream_version 1.102220
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 2
+Release:    %mkrel 1
 
 Summary:    A simple wrapper around Log::Dispatch
 License:    GPL+ or Artistic
