@@ -24,6 +24,7 @@ BuildRequires: perl(String::Flogger)
 BuildRequires: perl(Sub::Exporter::GlobExporter)
 BuildRequires: perl(Sys::Syslog)
 BuildRequires: perl(Test::Deep)
+BuildRequires: perl(Test::Fatal)
 BuildRequires: perl(Try::Tiny)
 
 BuildArch: noarch
