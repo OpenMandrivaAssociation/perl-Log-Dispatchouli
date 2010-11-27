@@ -1,5 +1,5 @@
 %define upstream_name    Log-Dispatchouli
-%define upstream_version 1.102350
+%define upstream_version 2.000
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version %{upstream_version}
@@ -21,6 +21,7 @@ BuildRequires: perl(Log::Dispatch::Syslog)
 BuildRequires: perl(Params::Util)
 BuildRequires: perl(Scalar::Util)
 BuildRequires: perl(String::Flogger)
+BuildRequires: perl(Sub::Exporter::GlobExporter)
 BuildRequires: perl(Sys::Syslog)
 BuildRequires: perl(Test::Deep)
 BuildRequires: perl(Try::Tiny)
