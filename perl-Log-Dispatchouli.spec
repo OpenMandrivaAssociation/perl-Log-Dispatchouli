@@ -1,15 +1,15 @@
 %define upstream_name    Log-Dispatchouli
-%define upstream_version 2.006
+%define upstream_version 2.008
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 2.006
+Version:	%perl_convert_version %{upstream_version}
 Release:	1
 
 Summary:	A simple wrapper around Log::Dispatch
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Log/Log-Dispatchouli-2.006.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Log/Log-Dispatchouli-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Carp)
@@ -112,4 +112,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Mar 04 2010 cpan2dist 1.008-1mdv
 - initial mdv release, generated with cpan2dist
+
 
