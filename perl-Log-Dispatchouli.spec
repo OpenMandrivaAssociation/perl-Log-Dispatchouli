@@ -1,5 +1,5 @@
 %define upstream_name    Log-Dispatchouli
-%define upstream_version 2.008
+%define upstream_version 2.009
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -112,5 +112,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Thu Mar 04 2010 cpan2dist 1.008-1mdv
 - initial mdv release, generated with cpan2dist
+
 
 
